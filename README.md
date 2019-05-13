@@ -25,11 +25,10 @@ npm install
 ```
 module.exports = {
   apps: [{
-    name: 'his-gateway',
+    name: 'graphql-demo',
     script: './index.js',
-    args: '--port 9999', // 根据实际情况修改端口
     env: {
-      NODE_ENV: 'production', // 开发环境下设置：development
+      NODE_ENV: 'development', // 开发环境下设置：development
       DEBUG: '', // 开发环境设置：*
     },
     env_production: {
