@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: 'his-gateway',
+    name: 'graphql-demo',
     script: './index.js',
     args: '--port 9999', // 根据实际情况修改端口
     env: {
